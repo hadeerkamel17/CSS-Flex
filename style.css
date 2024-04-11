@@ -1,0 +1,22 @@
+section {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+/* align-content property changes the behaviour of the flex-wrapproperty.
+it aligns flex lines.used to specify the alignment between
+the lines inside aflexible container .
+this property defines how each flex line is aligned within aflexbox 
+and is only applicable if the flex-wrap:wrap is applied (if there are multiple lines of flexbox items present).  */
+div {
+    width : 100px;
+    height : 100px;
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: violet;
+    
+
+}
